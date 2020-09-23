@@ -1,0 +1,536 @@
+/* prva strana */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p{
+  font-weight: bold;
+}
+.first-page {
+  /* display: none; */
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100vh;
+  background-image: url(background.png);
+  justify-content: center;
+  align-items: center;
+}
+.f-p-text {
+  padding: 50px;
+  width: 50%;
+}
+.f-p-text h1 {
+  font-weight: 900;
+  font-size: 40px;
+  margin: 25px;
+}
+.f-p-text p {
+  margin: 25px;
+  color: gray;
+}
+.f-p-text button {
+  background-color: indigo;
+  color: lightgray;
+  padding: 10px 25px;
+  margin: 25px;
+  border: none;
+  border-radius: 4px;
+}
+.f-p-text button:hover {
+  background-color: lightgray;
+  color: indigo;
+}
+.f-p-img {
+  width: 50%;
+}
+.footer {
+  width: 100%;
+  text-align: center;
+}
+.footer a {
+  color: indigo;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* vtora strana */
+.second-page {
+  /* display: none; */
+  background-image: url(background.png);
+  height: 90vh;
+}
+
+.sss {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 50px;
+}
+.s-p-div {
+  width: 20%;
+  padding: 10px;
+  border: lightgray solid 2px;
+  background-color: white;
+  box-shadow: 2px 2px 4px #6f6e6e;
+}
+.s-p-div h3 {
+  text-align: center;
+}
+.second-page h1 {
+  font-weight: 900;
+  font-size: 50px;
+  margin: 30px 0 40px 50px;
+}
+.s-p-div h3 {
+  font-size: 30px;
+  margin-bottom: 100px;
+}
+.s-p-div button {
+  float: right;
+  background-color: indigo;
+  color: lightgray;
+  padding: 10px 25px;
+  margin: 25px;
+  border: none;
+  border-radius: 4px;
+}
+.s-p-div button:hover {
+  background-color: lightgray;
+  color: indigo;
+}
+.baner {
+  display: flex;
+  width: 100%;
+  margin-top: 150px;
+  height: 80px;
+}
+.v-b {
+  background-color: yellow;
+  width: 50%;
+}
+.v-b,
+.v-l {
+  display: flex;
+  padding: 0 100px;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+}
+.v-l {
+  background-color: indigo;
+  width: 50%;
+}
+
+.v-b button,
+.v-l button {
+  background-color: black;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 4px;
+}
+.v-b a,
+.v-l a {
+  color: white;
+  text-decoration: none;
+}
+
+/* treta strana */
+.third-page {
+  background-image: url(background.png);
+  padding: 80px;
+  display: flex;
+  /* display: none; */
+  justify-content: space-between;
+}
+.eee {
+  width: 80%;
+}
+.elon {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  box-shadow: 2px 2px 4px #6f6e6e;
+  background-color: white;
+  padding: 25px;
+}
+.e-1,
+.e-2 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px;
+}
+.e-1 {
+  align-items: center;
+}
+.blue {
+  color: aqua;
+}
+.hr-aqua {
+  border: 1px solid aqua;
+}
+.elon-naslov {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.opis {
+  width: 70%;
+}
+.opis h2 {
+  border-left: 15px solid black;
+  padding-left: 20px;
+  margin-left: -35px;
+}
+.levo ul li::before {
+  content: "\2022";
+  color: aqua;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.left-aqua {
+  border-left: 15px solid aqua;
+  padding-left: 20px;
+  margin-left: -35px;
+}
+.slika {
+  width: 30%;
+  margin: 25px;
+}
+.slika img {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.elon-font-awsome {
+  width: 50%;
+  text-align: right;
+}
+.levo,
+.desno {
+  width: 50%;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+}
+.desno span {
+  background-color: aqua;
+  color: white;
+  border-radius: 4px;
+  padding: 5px;
+}
+.spans {
+  display: flex;
+  flex-wrap: wrap;
+}
+.ss {
+  margin: 5px;
+}
+.dole {
+  display: flex;
+}
+.bott {
+  position: absolute;
+  bottom: -60px;
+  left: 250px;
+}
+.sugestii {
+  width: 30%;
+  background-color: white;
+  box-shadow: 2px 2px 4px #6f6e6e;
+  height: 75vh;
+  position: fixed;
+  margin-left: 60%;
+  /* margin-top: -1850px; */
+}
+
+.kopcinja button {
+  background-color: lightgray;
+  color: indigo;
+  box-shadow: 2px 2px 4px #6f6e6e;
+  padding: 10px 25px;
+  margin: 25px;
+  border: none;
+  border-radius: 4px;
+  font-weight: 700;
+}
+#editBtn {
+  margin-left: 130px;
+}
+.kopcinja button:hover {
+  background-color: indigo;
+  color: lightgray;
+}
+
+/* add skills */
+
+.add-skills {
+  display: flex;
+  /* display: none; */
+  flex-wrap: wrap;
+  background-image: url(background.png);
+  padding: 0 50px;
+}
+.forma {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  padding: 25px 50px;
+  font-weight: bold;
+}
+.forma hr {
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid rgb(181, 179, 179);
+}
+.forma span {
+  color: indigo;
+  font-weight: bold;
+}
+.add-skills-kopcinja {
+  width: 100%;
+  padding: 15px 25px;
+}
+.add-skills-kopcinja button {
+  background-color: lightgray;
+  color: indigo;
+  box-shadow: 2px 2px 4px #6f6e6e;
+  padding: 10px 55px;
+  width: 200px;
+  margin: 25px;
+  border: none;
+  border-radius: 4px;
+  font-weight: 700;
+}
+.add-skills-kopcinja button:hover {
+  background-color: indigo;
+  color: lightgray;
+}
+.izberi {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+}
+.izbor {
+  height: 45px;
+  background-color: #ffffff;
+  color: gray;
+  box-shadow: 2px 2px 4px #6f6e6e;
+  border-radius: 4px;
+  width: 23%;
+  padding: 10px 5px;
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  color: indigo;
+}
+.fa-check-circle {
+  color: gray;
+  background-color: lightgray;
+}
+
+.podredi {
+  display: flex;
+  width: 100%;
+  padding: 25px;
+  justify-content: space-between;
+}
+.inputss {
+  width: 45%;
+}
+.inputss h4 {
+  color: indigo;
+  font-weight: bold;
+}
+.inputss input {
+  padding: 5px;
+  width: 100%;
+}
+/* finish */
+.finish {
+  display: flex;
+  /* display: none; */
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 50vh;
+  padding: 50px;
+  display: none;
+}
+.f-text {
+  width: 30%;
+  font-weight: 900;
+  padding: 25px 0 25px 150px;
+}
+.f-text span {
+  color: indianred;
+}
+.f-text h1 {
+  font-size: 40px;
+  margin-bottom: 100px;
+  font-weight: bold;
+}
+.f-img {
+  width: 70%;
+}
+.f-img img {
+  width: 100%;
+}
+.fa-times-circle {
+  color: whitesmoke;
+  background-color: rgb(12, 12, 12);
+  height: 15px;
+  border-radius: 50%;
+
+}
+
+
+.hr-black {
+  border: 1px solid black;
+}
+.centar-div {
+  text-align: center;
+}
+.centar-div ul li {
+  list-style-type: none;
+  display: inline;
+  margin: 10px;
+}
+.centar-div ul li span {
+  font-size: 20px;
+  margin: 10px;
+}
+.alekss ul li {
+  list-style-type: none;
+}
+.sugestii div {
+  padding: 25px;
+  font-size: 20px;
+}
+
+/* input,
+input#bannerImg {
+display: none;
+}
+.fa-times-circle::before{
+  display: none;
+} */
+span.ed-spa{
+  background-color: white;
+  color: black;
+  padding: 5px;
+  border: 1px solid darkgray;
+  border-radius: 2px;
+}
+.green-blue{
+  background-color: rgb(5, 66, 35);
+  color: white;
+  padding: 25px;
+}
+.ss span{
+  background-color: rgb(5, 66, 35);
+  color: white;
+}
+.g-b-c{
+color:rgb(5, 66, 35);
+font-weight: bold;
+
+}
+.pola{
+  width: 70%;
+}
+.desiig{
+  margin-left: -20px;
+  color: white;
+  background-color: black;
+  padding: 100px 50px 50px 50px ;
+  
+}
+.l-space{
+  letter-spacing: 10px;
+  font-size: 40px;
+}
+.l-spaceee{
+  letter-spacing: 10px;
+}
+.black-border{
+  padding:150px 50px 50px 50px;
+margin-top: -150px;
+  border: 5px solid black;
+}
+.opis .noBorder{
+  border: none;
+}
+#forWork,
+#forFounder, 
+#forCeo,
+#forCo,
+#forFaC,
+#forS,
+#forAchiv,
+#forInt,
+#bannerImg,
+#forWorkGD,
+#forWgd,
+#forConGD,
+#forEducation,
+#forSGD,
+#forWorkDS,
+#forFounderDS,
+#forEducationDS,
+#forDS,
+#fSertDS,
+#forDsLang,
+#forDSEdu,
+#bannerImgDS,
+#bannerImgM,
+#forWorkM,
+#forFounderM,
+#forJM,
+#forEM,
+#forSM,
+#forAchivM,
+#forIntM{
+  display: none;
+}
+.fa, .fa-times-circle::before{
+  display: none;
+}
+#download,
+#downloadGD,
+  #downloadDS,
+  #downloadM{
+  margin-left: -100px;
+}
+
+/* .second-page,
+.elon-page,
+.digital-marketing-page,
+.graphic-design-page,
+.data-sciense-page,
+.finish,
+.sugestii{ 
+   display: none; 
+  } */
+  .likaimages,
+  .linkedinimages{
+    padding: 150px;
+  }
+.likaimages img{
+  width: 100%;
+}
+.linkedinimages img{
+  width: 100%;
+}
